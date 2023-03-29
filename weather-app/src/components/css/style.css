@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap");
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost",sans-serif;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(205, 162, 245);
+    width: 50vh;
+    height: 60vh;
+    margin-top: 100px;
+}
+
+.inputfield{
+    width: 170px;
+    height: 30px;
+    border-radius: 300px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.info .location{
+    font-size: 30px;
+}
+.info .location .icon{
+    color: rgb(7, 5, 3);
+    margin-right: 10px;
+}
+
+.info .temp1{
+    margin-top: 0;
+}
+.info .tempmin_max{
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: lighter;
+}
+.data_error{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
